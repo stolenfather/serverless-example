@@ -21,6 +21,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "prod": "npm run build; npm run build:lambda",
+    "start":"npm run develop ",
     "start:lambda": "netlify-lambda serve functions",
     "build:lambda": "netlify-lambda build functions"
   },
