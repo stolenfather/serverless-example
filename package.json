@@ -20,8 +20,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "serve": "gatsby serve",
-    "prod": "npm run build; npm run build:lambda; npm run serve",
+    "prod": "npm run build; npm run build:lambda",
     "start:lambda": "netlify-lambda serve functions",
     "build:lambda": "netlify-lambda build functions"
   },
