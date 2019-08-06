@@ -3,7 +3,7 @@ exports.handler = function(event, context, callback) {
   
     if (name === 'abaGanov') {
       callback(null, {
-        statusCode: 200,
+        statusCode: 201,
         body: JSON.stringify({ msg: `Thanks for visiting ${name}` }),
       })
     } else {
